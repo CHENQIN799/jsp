@@ -4,15 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>查询数据库里面的信息</title>
+<title>删除数据库里面的信息</title>
 </head>
 <body>
-    <form action="insert.jsp" method="post">
-             <p>请输入你要插入的数据：</p>
+    <form action="delete.jsp" method="post">
+             <p>请输入你要删除的数据的学号：</p>
              <p>学号:<input type="text" name="id"></p>
-             <p>姓名:<input type="text" name="name"></p>
-             <p>年龄:<input type="text" name="age"></p>
-             <p>专业:<input type="text" name="major"></p>
              <button type="submit">提交</button>
     </form>
 </body>
